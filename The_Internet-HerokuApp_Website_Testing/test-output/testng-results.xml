@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="74" passed="74" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-31T20:00:51 IST" name="Internet Website Test Suite" finished-at="2024-03-31T20:05:49 IST" duration-ms="298089">
+    <groups>
+    </groups>
+    <test started-at="2024-03-31T20:00:51 IST" name=" Add_Remove Element TestCases" finished-at="2024-03-31T20:00:59 IST" duration-ms="7634">
+      <class name="locators_selenium_Interactions.AddAndRemove_Elements">
+        <test-method signature="MoveTOAdd_RemoveLink()[pri:0, instance:locators_selenium_Interactions.AddAndRemove_Elements@6dc17b83]" started-at="2024-03-31T20:00:51 IST" name="MoveTOAdd_RemoveLink" finished-at="2024-03-31T20:00:56 IST" duration-ms="4524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTOAdd_RemoveLink -->
+        <test-method signature="Add_RemoveElements()[pri:0, instance:locators_selenium_Interactions.AddAndRemove_Elements@6dc17b83]" started-at="2024-03-31T20:00:56 IST" name="Add_RemoveElements" finished-at="2024-03-31T20:00:59 IST" depends-on-methods="locators_selenium_Interactions.AddAndRemove_Elements.MoveTOAdd_RemoveLink" duration-ms="2808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_RemoveElements -->
+      </class> <!-- locators_selenium_Interactions.AddAndRemove_Elements -->
+    </test> <!--  Add_Remove Element TestCases -->
+    <test started-at="2024-03-31T20:01:01 IST" name="Broken Images TestCases" finished-at="2024-03-31T20:01:12 IST" duration-ms="11920">
+      <class name="locators_selenium_Interactions.BrokenImages">
+        <test-method signature="MoveToBrokenImage()[pri:0, instance:locators_selenium_Interactions.BrokenImages@3febb011]" started-at="2024-03-31T20:01:01 IST" name="MoveToBrokenImage" finished-at="2024-03-31T20:01:10 IST" duration-ms="9660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToBrokenImage -->
+        <test-method signature="Broken_Images()[pri:0, instance:locators_selenium_Interactions.BrokenImages@3febb011]" started-at="2024-03-31T20:01:10 IST" name="Broken_Images" finished-at="2024-03-31T20:01:12 IST" depends-on-methods="locators_selenium_Interactions.BrokenImages.MoveToBrokenImage" duration-ms="2202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Broken_Images -->
+      </class> <!-- locators_selenium_Interactions.BrokenImages -->
+    </test> <!-- Broken Images TestCases -->
+    <test started-at="2024-03-31T20:01:13 IST" name="Challenging DOM Element Find TestCases" finished-at="2024-03-31T20:01:34 IST" duration-ms="21960">
+      <class name="locators_selenium_Interactions.Challenging_DOM">
+        <test-method signature="MoveToChallengingDOMLinnk()[pri:0, instance:locators_selenium_Interactions.Challenging_DOM@7f0eb4b4]" started-at="2024-03-31T20:01:13 IST" name="MoveToChallengingDOMLinnk" finished-at="2024-03-31T20:01:19 IST" duration-ms="6473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToChallengingDOMLinnk -->
+        <test-method signature="DomElementIdentify()[pri:0, instance:locators_selenium_Interactions.Challenging_DOM@7f0eb4b4]" started-at="2024-03-31T20:01:19 IST" name="DomElementIdentify" finished-at="2024-03-31T20:01:34 IST" depends-on-methods="locators_selenium_Interactions.Challenging_DOM.MoveToChallengingDOMLinnk" duration-ms="15453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DomElementIdentify -->
+      </class> <!-- locators_selenium_Interactions.Challenging_DOM -->
+    </test> <!-- Challenging DOM Element Find TestCases -->
+    <test started-at="2024-03-31T20:01:35 IST" name="Checkboxes TestCases" finished-at="2024-03-31T20:01:37 IST" duration-ms="2885">
+      <class name="locators_selenium_Interactions.Checkboxes">
+        <test-method signature="MoveToCheckboxesLink()[pri:0, instance:locators_selenium_Interactions.Checkboxes@9597028]" started-at="2024-03-31T20:01:35 IST" name="MoveToCheckboxesLink" finished-at="2024-03-31T20:01:36 IST" duration-ms="1894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToCheckboxesLink -->
+        <test-method signature="Check_boxes()[pri:0, instance:locators_selenium_Interactions.Checkboxes@9597028]" started-at="2024-03-31T20:01:36 IST" name="Check_boxes" finished-at="2024-03-31T20:01:37 IST" depends-on-methods="locators_selenium_Interactions.Checkboxes.MoveToCheckboxesLink" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_boxes -->
+      </class> <!-- locators_selenium_Interactions.Checkboxes -->
+    </test> <!-- Checkboxes TestCases -->
+    <test started-at="2024-03-31T20:01:38 IST" name="ContextMenu TestCases" finished-at="2024-03-31T20:01:41 IST" duration-ms="3477">
+      <class name="locators_selenium_Interactions.Context_Menu">
+        <test-method signature="MoveToContextMenuLink()[pri:0, instance:locators_selenium_Interactions.Context_Menu@5b8dfcc1]" started-at="2024-03-31T20:01:38 IST" name="MoveToContextMenuLink" finished-at="2024-03-31T20:01:39 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToContextMenuLink -->
+        <test-method signature="HandlingContextMenu()[pri:0, instance:locators_selenium_Interactions.Context_Menu@5b8dfcc1]" started-at="2024-03-31T20:01:39 IST" name="HandlingContextMenu" finished-at="2024-03-31T20:01:41 IST" depends-on-methods="locators_selenium_Interactions.Context_Menu.MoveToContextMenuLink" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingContextMenu -->
+      </class> <!-- locators_selenium_Interactions.Context_Menu -->
+    </test> <!-- ContextMenu TestCases -->
+    <test started-at="2024-03-31T20:01:41 IST" name="Disappearing Elements TestCases" finished-at="2024-03-31T20:01:46 IST" duration-ms="5052">
+      <class name="locators_selenium_Interactions.Disappearing_Elements">
+        <test-method signature="DisappearingElementsLink()[pri:0, instance:locators_selenium_Interactions.Disappearing_Elements@7d8995e]" started-at="2024-03-31T20:01:41 IST" name="DisappearingElementsLink" finished-at="2024-03-31T20:01:46 IST" duration-ms="4604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisappearingElementsLink -->
+        <test-method signature="HandlingDisappearingElements()[pri:0, instance:locators_selenium_Interactions.Disappearing_Elements@7d8995e]" started-at="2024-03-31T20:01:46 IST" name="HandlingDisappearingElements" finished-at="2024-03-31T20:01:46 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingDisappearingElements -->
+      </class> <!-- locators_selenium_Interactions.Disappearing_Elements -->
+    </test> <!-- Disappearing Elements TestCases -->
+    <test started-at="2024-03-31T20:01:46 IST" name=" DragAndDrop TestCases" finished-at="2024-03-31T20:01:48 IST" duration-ms="2194">
+      <class name="locators_selenium_Interactions.DragAndDrop">
+        <test-method signature="Drag_DropLink()[pri:0, instance:locators_selenium_Interactions.DragAndDrop@3c19aaa5]" started-at="2024-03-31T20:01:46 IST" name="Drag_DropLink" finished-at="2024-03-31T20:01:48 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Drag_DropLink -->
+        <test-method signature="DragAndDrops()[pri:0, instance:locators_selenium_Interactions.DragAndDrop@3c19aaa5]" started-at="2024-03-31T20:01:48 IST" name="DragAndDrops" finished-at="2024-03-31T20:01:48 IST" depends-on-methods="locators_selenium_Interactions.DragAndDrop.Drag_DropLink" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragAndDrops -->
+      </class> <!-- locators_selenium_Interactions.DragAndDrop -->
+    </test> <!--  DragAndDrop TestCases -->
+    <test started-at="2024-03-31T20:01:48 IST" name=" Drop_Down TestCases" finished-at="2024-03-31T20:01:51 IST" duration-ms="2466">
+      <class name="locators_selenium_Interactions.Drop_Down">
+        <test-method signature="DropdownLink()[pri:0, instance:locators_selenium_Interactions.Drop_Down@689604d9]" started-at="2024-03-31T20:01:49 IST" name="DropdownLink" finished-at="2024-03-31T20:01:50 IST" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropdownLink -->
+        <test-method signature="Dropdown()[pri:0, instance:locators_selenium_Interactions.Drop_Down@689604d9]" started-at="2024-03-31T20:01:50 IST" name="Dropdown" finished-at="2024-03-31T20:01:51 IST" depends-on-methods="locators_selenium_Interactions.Drop_Down.DropdownLink" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dropdown -->
+      </class> <!-- locators_selenium_Interactions.Drop_Down -->
+    </test> <!--  Drop_Down TestCases -->
+    <test started-at="2024-03-31T20:01:51 IST" name=" Dynamic_Controls TestCases" finished-at="2024-03-31T20:02:08 IST" duration-ms="16792">
+      <class name="locators_selenium_Interactions.Dynamic_Controls">
+        <test-method signature="DynamicControlsLink()[pri:0, instance:locators_selenium_Interactions.Dynamic_Controls@2a4fb17b]" started-at="2024-03-31T20:01:51 IST" name="DynamicControlsLink" finished-at="2024-03-31T20:01:53 IST" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DynamicControlsLink -->
+        <test-method signature="RemoveCheckBox()[pri:1, instance:locators_selenium_Interactions.Dynamic_Controls@2a4fb17b]" started-at="2024-03-31T20:01:53 IST" name="RemoveCheckBox" finished-at="2024-03-31T20:01:57 IST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveCheckBox -->
+        <test-method signature="AddCheckBox()[pri:2, instance:locators_selenium_Interactions.Dynamic_Controls@2a4fb17b]" started-at="2024-03-31T20:01:57 IST" name="AddCheckBox" finished-at="2024-03-31T20:02:00 IST" duration-ms="3393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCheckBox -->
+        <test-method signature="VerifyInputBox()[pri:3, instance:locators_selenium_Interactions.Dynamic_Controls@2a4fb17b]" started-at="2024-03-31T20:02:00 IST" name="VerifyInputBox" finished-at="2024-03-31T20:02:00 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInputBox -->
+        <test-method signature="EnableInputBox()[pri:4, instance:locators_selenium_Interactions.Dynamic_Controls@2a4fb17b]" started-at="2024-03-31T20:02:00 IST" name="EnableInputBox" finished-at="2024-03-31T20:02:05 IST" duration-ms="4156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableInputBox -->
+        <test-method signature="DisableInputBox()[pri:0, instance:locators_selenium_Interactions.Dynamic_Controls@2a4fb17b]" started-at="2024-03-31T20:02:05 IST" name="DisableInputBox" finished-at="2024-03-31T20:02:08 IST" depends-on-methods="locators_selenium_Interactions.Dynamic_Controls.EnableInputBox" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisableInputBox -->
+      </class> <!-- locators_selenium_Interactions.Dynamic_Controls -->
+    </test> <!--  Dynamic_Controls TestCases -->
+    <test started-at="2024-03-31T20:02:08 IST" name=" Entry_Ad TestCases" finished-at="2024-03-31T20:02:11 IST" duration-ms="2607">
+      <class name="locators_selenium_Interactions.Entry_Ad">
+        <test-method signature="EntryAdlink()[pri:0, instance:locators_selenium_Interactions.Entry_Ad@4c583ecf]" started-at="2024-03-31T20:02:08 IST" name="EntryAdlink" finished-at="2024-03-31T20:02:09 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EntryAdlink -->
+        <test-method signature="handleEntryAd()[pri:0, instance:locators_selenium_Interactions.Entry_Ad@4c583ecf]" started-at="2024-03-31T20:02:09 IST" name="handleEntryAd" finished-at="2024-03-31T20:02:11 IST" depends-on-methods="locators_selenium_Interactions.Entry_Ad.EntryAdlink" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleEntryAd -->
+      </class> <!-- locators_selenium_Interactions.Entry_Ad -->
+    </test> <!--  Entry_Ad TestCases -->
+    <test started-at="2024-03-31T20:02:11 IST" name=" File Download TestCases" finished-at="2024-03-31T20:02:19 IST" duration-ms="8720">
+      <class name="locators_selenium_Interactions.File_Download">
+        <test-method signature="Filedownloadlink()[pri:0, instance:locators_selenium_Interactions.File_Download@3270d194]" started-at="2024-03-31T20:02:11 IST" name="Filedownloadlink" finished-at="2024-03-31T20:02:13 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filedownloadlink -->
+        <test-method signature="Downloadfile()[pri:0, instance:locators_selenium_Interactions.File_Download@3270d194]" started-at="2024-03-31T20:02:13 IST" name="Downloadfile" finished-at="2024-03-31T20:02:19 IST" depends-on-methods="locators_selenium_Interactions.File_Download.Filedownloadlink" duration-ms="6557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Downloadfile -->
+      </class> <!-- locators_selenium_Interactions.File_Download -->
+    </test> <!--  File Download TestCases -->
+    <test started-at="2024-03-31T20:02:19 IST" name=" File Upload TestCases" finished-at="2024-03-31T20:02:28 IST" duration-ms="8622">
+      <class name="locators_selenium_Interactions.File_Upload">
+        <test-method signature="FileUploadLink()[pri:0, instance:locators_selenium_Interactions.File_Upload@7b98f307]" started-at="2024-03-31T20:02:19 IST" name="FileUploadLink" finished-at="2024-03-31T20:02:24 IST" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileUploadLink -->
+        <test-method signature="FileUpload()[pri:0, instance:locators_selenium_Interactions.File_Upload@7b98f307]" started-at="2024-03-31T20:02:24 IST" name="FileUpload" finished-at="2024-03-31T20:02:28 IST" depends-on-methods="locators_selenium_Interactions.File_Upload.FileUploadLink" duration-ms="4045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileUpload -->
+      </class> <!-- locators_selenium_Interactions.File_Upload -->
+    </test> <!--  File Upload TestCases -->
+    <test started-at="2024-03-31T20:02:28 IST" name=" Forgot Password TestCases" finished-at="2024-03-31T20:02:32 IST" duration-ms="3691">
+      <class name="locators_selenium_Interactions.Forgot_Password">
+        <test-method signature="ForgotPasswordlink()[pri:0, instance:locators_selenium_Interactions.Forgot_Password@3590fc5b]" started-at="2024-03-31T20:02:28 IST" name="ForgotPasswordlink" finished-at="2024-03-31T20:02:30 IST" duration-ms="2091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPasswordlink -->
+        <test-method signature="ForgotPassword()[pri:0, instance:locators_selenium_Interactions.Forgot_Password@3590fc5b]" started-at="2024-03-31T20:02:30 IST" name="ForgotPassword" finished-at="2024-03-31T20:02:32 IST" depends-on-methods="locators_selenium_Interactions.Forgot_Password.ForgotPasswordlink" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+      </class> <!-- locators_selenium_Interactions.Forgot_Password -->
+    </test> <!--  Forgot Password TestCases -->
+    <test started-at="2024-03-31T20:02:32 IST" name=" Form Authentication TestCases" finished-at="2024-03-31T20:02:54 IST" duration-ms="21721">
+      <class name="locators_selenium_Interactions.Form_Authentication">
+        <test-method signature="FormAuthenticationLink()[pri:0, instance:locators_selenium_Interactions.Form_Authentication@5e0e82ae]" started-at="2024-03-31T20:02:32 IST" name="FormAuthenticationLink" finished-at="2024-03-31T20:02:49 IST" duration-ms="16984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormAuthenticationLink -->
+        <test-method signature="FormAuthenticationUsingInvalidCredentials()[pri:0, instance:locators_selenium_Interactions.Form_Authentication@5e0e82ae]" started-at="2024-03-31T20:02:49 IST" name="FormAuthenticationUsingInvalidCredentials" finished-at="2024-03-31T20:02:51 IST" depends-on-methods="locators_selenium_Interactions.Form_Authentication.FormAuthenticationLink" duration-ms="2210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormAuthenticationUsingInvalidCredentials -->
+        <test-method signature="FormAuthenticationUsingValidCredentials()[pri:0, instance:locators_selenium_Interactions.Form_Authentication@5e0e82ae]" started-at="2024-03-31T20:02:51 IST" name="FormAuthenticationUsingValidCredentials" finished-at="2024-03-31T20:02:52 IST" depends-on-methods="locators_selenium_Interactions.Form_Authentication.FormAuthenticationUsingInvalidCredentials" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormAuthenticationUsingValidCredentials -->
+        <test-method signature="VerifyCredentialsInfo()[pri:0, instance:locators_selenium_Interactions.Form_Authentication@5e0e82ae]" started-at="2024-03-31T20:02:52 IST" name="VerifyCredentialsInfo" finished-at="2024-03-31T20:02:52 IST" depends-on-methods="locators_selenium_Interactions.Form_Authentication.FormAuthenticationUsingValidCredentials" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCredentialsInfo -->
+        <test-method signature="LogoutAccount()[pri:0, instance:locators_selenium_Interactions.Form_Authentication@5e0e82ae]" started-at="2024-03-31T20:02:52 IST" name="LogoutAccount" finished-at="2024-03-31T20:02:54 IST" depends-on-methods="locators_selenium_Interactions.Form_Authentication.VerifyCredentialsInfo" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutAccount -->
+      </class> <!-- locators_selenium_Interactions.Form_Authentication -->
+    </test> <!--  Form Authentication TestCases -->
+    <test started-at="2024-03-31T20:02:54 IST" name="Frames TestCases" finished-at="2024-03-31T20:03:09 IST" duration-ms="15570">
+      <class name="locators_selenium_Interactions.Frames_Interact">
+        <test-method signature="FramesLink()[pri:0, instance:locators_selenium_Interactions.Frames_Interact@175c2241]" started-at="2024-03-31T20:02:54 IST" name="FramesLink" finished-at="2024-03-31T20:02:56 IST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FramesLink -->
+        <test-method signature="NestedFrames()[pri:0, instance:locators_selenium_Interactions.Frames_Interact@175c2241]" started-at="2024-03-31T20:02:56 IST" name="NestedFrames" finished-at="2024-03-31T20:02:58 IST" depends-on-methods="locators_selenium_Interactions.Frames_Interact.FramesLink" duration-ms="1788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NestedFrames -->
+        <test-method signature="NFrames()[pri:0, instance:locators_selenium_Interactions.Frames_Interact@175c2241]" started-at="2024-03-31T20:02:58 IST" name="NFrames" finished-at="2024-03-31T20:02:58 IST" depends-on-methods="locators_selenium_Interactions.Frames_Interact.NestedFrames" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NFrames -->
+        <test-method signature="MoveToIframe()[pri:0, instance:locators_selenium_Interactions.Frames_Interact@175c2241]" started-at="2024-03-31T20:02:58 IST" name="MoveToIframe" finished-at="2024-03-31T20:03:09 IST" depends-on-methods="locators_selenium_Interactions.Frames_Interact.NFrames" duration-ms="11378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToIframe -->
+        <test-method signature="IFramesInteract()[pri:0, instance:locators_selenium_Interactions.Frames_Interact@175c2241]" started-at="2024-03-31T20:03:09 IST" name="IFramesInteract" finished-at="2024-03-31T20:03:09 IST" depends-on-methods="locators_selenium_Interactions.Frames_Interact.MoveToIframe" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IFramesInteract -->
+      </class> <!-- locators_selenium_Interactions.Frames_Interact -->
+    </test> <!-- Frames TestCases -->
+    <test started-at="2024-03-31T20:03:10 IST" name="Horizontal_Slider TestCases" finished-at="2024-03-31T20:03:12 IST" duration-ms="2376">
+      <class name="locators_selenium_Interactions.Horizontal_Slider">
+        <test-method signature="HorizontalSliderLink()[pri:0, instance:locators_selenium_Interactions.Horizontal_Slider@3c46e67a]" started-at="2024-03-31T20:03:10 IST" name="HorizontalSliderLink" finished-at="2024-03-31T20:03:12 IST" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HorizontalSliderLink -->
+        <test-method signature="HorizontalSlider()[pri:0, instance:locators_selenium_Interactions.Horizontal_Slider@3c46e67a]" started-at="2024-03-31T20:03:12 IST" name="HorizontalSlider" finished-at="2024-03-31T20:03:12 IST" depends-on-methods="locators_selenium_Interactions.Horizontal_Slider.HorizontalSliderLink" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HorizontalSlider -->
+      </class> <!-- locators_selenium_Interactions.Horizontal_Slider -->
+    </test> <!-- Horizontal_Slider TestCases -->
+    <test started-at="2024-03-31T20:03:12 IST" name=" Hovers TestCases" finished-at="2024-03-31T20:03:15 IST" duration-ms="2282">
+      <class name="locators_selenium_Interactions.Hovers">
+        <test-method signature="HoversLink()[pri:0, instance:locators_selenium_Interactions.Hovers@3c41ed1d]" started-at="2024-03-31T20:03:12 IST" name="HoversLink" finished-at="2024-03-31T20:03:14 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoversLink -->
+        <test-method signature="HoversInteract()[pri:0, instance:locators_selenium_Interactions.Hovers@3c41ed1d]" started-at="2024-03-31T20:03:14 IST" name="HoversInteract" finished-at="2024-03-31T20:03:15 IST" depends-on-methods="locators_selenium_Interactions.Hovers.HoversLink" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoversInteract -->
+      </class> <!-- locators_selenium_Interactions.Hovers -->
+    </test> <!--  Hovers TestCases -->
+    <test started-at="2024-03-31T20:03:15 IST" name=" Input_interacts TestCases" finished-at="2024-03-31T20:03:17 IST" duration-ms="2481">
+      <class name="locators_selenium_Interactions.Input_interacts">
+        <test-method signature="InputLink()[pri:0, instance:locators_selenium_Interactions.Input_interacts@2d1ef81a]" started-at="2024-03-31T20:03:15 IST" name="InputLink" finished-at="2024-03-31T20:03:16 IST" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputLink -->
+        <test-method signature="Inputs()[pri:0, instance:locators_selenium_Interactions.Input_interacts@2d1ef81a]" started-at="2024-03-31T20:03:16 IST" name="Inputs" finished-at="2024-03-31T20:03:17 IST" depends-on-methods="locators_selenium_Interactions.Input_interacts.InputLink" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Inputs -->
+      </class> <!-- locators_selenium_Interactions.Input_interacts -->
+    </test> <!--  Input_interacts TestCases -->
+    <test started-at="2024-03-31T20:03:17 IST" name=" JavaScript_Alerts TestCases" finished-at="2024-03-31T20:03:20 IST" duration-ms="3051">
+      <class name="locators_selenium_Interactions.JavaScript_Alerts">
+        <test-method signature="JavaScriptAlertsLink()[pri:0, instance:locators_selenium_Interactions.JavaScript_Alerts@5542c4ed]" started-at="2024-03-31T20:03:17 IST" name="JavaScriptAlertsLink" finished-at="2024-03-31T20:03:19 IST" duration-ms="1293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaScriptAlertsLink -->
+        <test-method signature="JavaScriptAlerts()[pri:0, instance:locators_selenium_Interactions.JavaScript_Alerts@5542c4ed]" started-at="2024-03-31T20:03:19 IST" name="JavaScriptAlerts" finished-at="2024-03-31T20:03:20 IST" depends-on-methods="locators_selenium_Interactions.JavaScript_Alerts.JavaScriptAlertsLink" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaScriptAlerts -->
+      </class> <!-- locators_selenium_Interactions.JavaScript_Alerts -->
+    </test> <!--  JavaScript_Alerts TestCases -->
+    <test started-at="2024-03-31T20:03:20 IST" name=" Key_Presses TestCases" finished-at="2024-03-31T20:03:23 IST" duration-ms="2242">
+      <class name="locators_selenium_Interactions.Key_Presses">
+        <test-method signature="KeyPressesLink()[pri:0, instance:locators_selenium_Interactions.Key_Presses@10683d9d]" started-at="2024-03-31T20:03:20 IST" name="KeyPressesLink" finished-at="2024-03-31T20:03:22 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KeyPressesLink -->
+        <test-method signature="KeyPresses_Interact()[pri:0, instance:locators_selenium_Interactions.Key_Presses@10683d9d]" started-at="2024-03-31T20:03:22 IST" name="KeyPresses_Interact" finished-at="2024-03-31T20:03:23 IST" depends-on-methods="locators_selenium_Interactions.Key_Presses.KeyPressesLink" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KeyPresses_Interact -->
+      </class> <!-- locators_selenium_Interactions.Key_Presses -->
+    </test> <!--  Key_Presses TestCases -->
+    <test started-at="2024-03-31T20:03:23 IST" name=" Multiple_Windows TestCases" finished-at="2024-03-31T20:03:28 IST" duration-ms="4958">
+      <class name="locators_selenium_Interactions.Multiple_Windows">
+        <test-method signature="MultipleWindowsLink()[pri:0, instance:locators_selenium_Interactions.Multiple_Windows@229f66ed]" started-at="2024-03-31T20:03:23 IST" name="MultipleWindowsLink" finished-at="2024-03-31T20:03:24 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleWindowsLink -->
+        <test-method signature="MultipleWindow()[pri:0, instance:locators_selenium_Interactions.Multiple_Windows@229f66ed]" started-at="2024-03-31T20:03:24 IST" name="MultipleWindow" finished-at="2024-03-31T20:03:28 IST" depends-on-methods="locators_selenium_Interactions.Multiple_Windows.MultipleWindowsLink" duration-ms="3672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleWindow -->
+      </class> <!-- locators_selenium_Interactions.Multiple_Windows -->
+    </test> <!--  Multiple_Windows TestCases -->
+    <test started-at="2024-03-31T20:03:28 IST" name=" Nested_Frames TestCases" finished-at="2024-03-31T20:03:31 IST" duration-ms="3154">
+      <class name="locators_selenium_Interactions.Nested_Frames">
+        <test-method signature="NestedFramesLink()[pri:0, instance:locators_selenium_Interactions.Nested_Frames@233795b6]" started-at="2024-03-31T20:03:28 IST" name="NestedFramesLink" finished-at="2024-03-31T20:03:31 IST" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NestedFramesLink -->
+        <test-method signature="NFrames()[pri:0, instance:locators_selenium_Interactions.Nested_Frames@233795b6]" started-at="2024-03-31T20:03:31 IST" name="NFrames" finished-at="2024-03-31T20:03:31 IST" depends-on-methods="locators_selenium_Interactions.Nested_Frames.NestedFramesLink" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NFrames -->
+      </class> <!-- locators_selenium_Interactions.Nested_Frames -->
+    </test> <!--  Nested_Frames TestCases -->
+    <test started-at="2024-03-31T20:03:31 IST" name=" Notification_Messages TestCases" finished-at="2024-03-31T20:03:35 IST" duration-ms="3576">
+      <class name="locators_selenium_Interactions.Notification_Messages">
+        <test-method signature="Notification_MessagesLink()[pri:0, instance:locators_selenium_Interactions.Notification_Messages@3b0090a4]" started-at="2024-03-31T20:03:31 IST" name="Notification_MessagesLink" finished-at="2024-03-31T20:03:33 IST" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Notification_MessagesLink -->
+        <test-method signature="NotificationMessages()[pri:0, instance:locators_selenium_Interactions.Notification_Messages@3b0090a4]" started-at="2024-03-31T20:03:33 IST" name="NotificationMessages" finished-at="2024-03-31T20:03:35 IST" depends-on-methods="locators_selenium_Interactions.Notification_Messages.Notification_MessagesLink" duration-ms="1710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotificationMessages -->
+      </class> <!-- locators_selenium_Interactions.Notification_Messages -->
+    </test> <!--  Notification_Messages TestCases -->
+    <test started-at="2024-03-31T20:03:35 IST" name=" Redirect_Link TestCases" finished-at="2024-03-31T20:03:43 IST" duration-ms="7635">
+      <class name="locators_selenium_Interactions.Redirect_Link">
+        <test-method signature="RedirectLink()[pri:0, instance:locators_selenium_Interactions.Redirect_Link@7c6908d7]" started-at="2024-03-31T20:03:35 IST" name="RedirectLink" finished-at="2024-03-31T20:03:37 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RedirectLink -->
+        <test-method signature="Redirect_LinkInteract()[pri:1, instance:locators_selenium_Interactions.Redirect_Link@7c6908d7]" started-at="2024-03-31T20:03:37 IST" name="Redirect_LinkInteract" finished-at="2024-03-31T20:03:38 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Redirect_LinkInteract -->
+        <test-method signature="HttpStatusCode200()[pri:2, instance:locators_selenium_Interactions.Redirect_Link@7c6908d7]" started-at="2024-03-31T20:03:38 IST" name="HttpStatusCode200" finished-at="2024-03-31T20:03:39 IST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HttpStatusCode200 -->
+        <test-method signature="HttpStatusCode301()[pri:3, instance:locators_selenium_Interactions.Redirect_Link@7c6908d7]" started-at="2024-03-31T20:03:39 IST" name="HttpStatusCode301" finished-at="2024-03-31T20:03:40 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HttpStatusCode301 -->
+        <test-method signature="HttpStatusCode404()[pri:4, instance:locators_selenium_Interactions.Redirect_Link@7c6908d7]" started-at="2024-03-31T20:03:40 IST" name="HttpStatusCode404" finished-at="2024-03-31T20:03:42 IST" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HttpStatusCode404 -->
+        <test-method signature="HttpStatusCode500()[pri:5, instance:locators_selenium_Interactions.Redirect_Link@7c6908d7]" started-at="2024-03-31T20:03:42 IST" name="HttpStatusCode500" finished-at="2024-03-31T20:03:43 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HttpStatusCode500 -->
+      </class> <!-- locators_selenium_Interactions.Redirect_Link -->
+    </test> <!--  Redirect_Link TestCases -->
+    <test started-at="2024-03-31T20:03:43 IST" name=" Shadow_DOM TestCases" finished-at="2024-03-31T20:03:45 IST" duration-ms="2116">
+      <class name="locators_selenium_Interactions.Shadow_DOM">
+        <test-method signature="ShadowDOMLink()[pri:0, instance:locators_selenium_Interactions.Shadow_DOM@40005471]" started-at="2024-03-31T20:03:43 IST" name="ShadowDOMLink" finished-at="2024-03-31T20:03:45 IST" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShadowDOMLink -->
+        <test-method signature="ShadowDOM()[pri:1, instance:locators_selenium_Interactions.Shadow_DOM@40005471]" started-at="2024-03-31T20:03:45 IST" name="ShadowDOM" finished-at="2024-03-31T20:03:45 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShadowDOM -->
+      </class> <!-- locators_selenium_Interactions.Shadow_DOM -->
+    </test> <!--  Shadow_DOM TestCases -->
+    <test started-at="2024-03-31T20:03:45 IST" name=" JQuery_UI_Menus TestCases" finished-at="2024-03-31T20:03:55 IST" duration-ms="10352">
+      <class name="locators_selenium_Interactions.JQuery_UI_Menus">
+        <test-method signature="JQuery_UI_MenusLink()[pri:0, instance:locators_selenium_Interactions.JQuery_UI_Menus@1ce24091]" started-at="2024-03-31T20:03:45 IST" name="JQuery_UI_MenusLink" finished-at="2024-03-31T20:03:47 IST" duration-ms="2128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JQuery_UI_MenusLink -->
+        <test-method signature="JQueryUIMenus()[pri:0, instance:locators_selenium_Interactions.JQuery_UI_Menus@1ce24091]" started-at="2024-03-31T20:03:47 IST" name="JQueryUIMenus" finished-at="2024-03-31T20:03:55 IST" depends-on-methods="locators_selenium_Interactions.JQuery_UI_Menus.JQuery_UI_MenusLink" duration-ms="8197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JQueryUIMenus -->
+      </class> <!-- locators_selenium_Interactions.JQuery_UI_Menus -->
+    </test> <!--  JQuery_UI_Menus TestCases -->
+    <test started-at="2024-03-31T20:03:55 IST" name=" Infinite Scroll TestCases" finished-at="2024-03-31T20:03:58 IST" duration-ms="2589">
+      <class name="locators_selenium_Interactions.Infinite_Scroll">
+        <test-method signature="Infinite_ScrollLink()[pri:0, instance:locators_selenium_Interactions.Infinite_Scroll@279fedbd]" started-at="2024-03-31T20:03:55 IST" name="Infinite_ScrollLink" finished-at="2024-03-31T20:03:58 IST" duration-ms="2353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Infinite_ScrollLink -->
+        <test-method signature="InfiniteScroll()[pri:0, instance:locators_selenium_Interactions.Infinite_Scroll@279fedbd]" started-at="2024-03-31T20:03:58 IST" name="InfiniteScroll" finished-at="2024-03-31T20:03:58 IST" depends-on-methods="locators_selenium_Interactions.Infinite_Scroll.Infinite_ScrollLink" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InfiniteScroll -->
+      </class> <!-- locators_selenium_Interactions.Infinite_Scroll -->
+    </test> <!--  Infinite Scroll TestCases -->
+    <test started-at="2024-03-31T20:03:58 IST" name=" Secure_File_Download  TestCases" finished-at="2024-03-31T20:04:50 IST" duration-ms="52111">
+      <class name="locators_selenium_Interactions.Secure_File_Download">
+        <test-method signature="Setup_SecureFileDownload()[pri:0, instance:locators_selenium_Interactions.Secure_File_Download@6ad82709]" started-at="2024-03-31T20:03:58 IST" name="Setup_SecureFileDownload" finished-at="2024-03-31T20:04:30 IST" duration-ms="31840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup_SecureFileDownload -->
+        <test-method signature="SecureFileDownload()[pri:1, instance:locators_selenium_Interactions.Secure_File_Download@6ad82709]" started-at="2024-03-31T20:04:30 IST" name="SecureFileDownload" finished-at="2024-03-31T20:04:50 IST" duration-ms="20256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecureFileDownload -->
+      </class> <!-- locators_selenium_Interactions.Secure_File_Download -->
+    </test> <!--  Secure_File_Download  TestCases -->
+    <test started-at="2024-03-31T20:04:50 IST" name="Basic Auth And Digest Auth TestCases" finished-at="2024-03-31T20:05:49 IST" duration-ms="59275">
+      <class name="locators_selenium_Interactions.Infinite_Scroll">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:locators_selenium_Interactions.Infinite_Scroll@279fedbd]" started-at="2024-03-31T19:59:02 IST" name="LaunchBrowser" finished-at="2024-03-31T20:00:51 IST" duration-ms="109204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:locators_selenium_Interactions.Infinite_Scroll@279fedbd]" started-at="2024-03-31T20:05:50 IST" name="TearDown" finished-at="2024-03-31T20:06:06 IST" duration-ms="16731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- locators_selenium_Interactions.Infinite_Scroll -->
+      <class name="locators_selenium_Interactions.Basic_Auth">
+        <test-method signature="BaseAuthLink()[pri:0, instance:locators_selenium_Interactions.Basic_Auth@247bddad]" started-at="2024-03-31T20:04:50 IST" name="BaseAuthLink" finished-at="2024-03-31T20:05:31 IST" duration-ms="41129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseAuthLink -->
+        <test-method signature="verify()[pri:0, instance:locators_selenium_Interactions.Basic_Auth@247bddad]" started-at="2024-03-31T20:05:33 IST" name="verify" finished-at="2024-03-31T20:05:49 IST" depends-on-methods="locators_selenium_Interactions.Basic_Auth.BaseAuthLink" duration-ms="16178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+      </class> <!-- locators_selenium_Interactions.Basic_Auth -->
+      <class name="locators_selenium_Interactions.Digest_Authentication">
+        <test-method signature="Digest_AuthenticationSignIn()[pri:0, instance:locators_selenium_Interactions.Digest_Authentication@d35dea7]" started-at="2024-03-31T20:04:50 IST" name="Digest_AuthenticationSignIn" finished-at="2024-03-31T20:05:33 IST" duration-ms="43087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Digest_AuthenticationSignIn -->
+        <test-method signature="verify()[pri:0, instance:locators_selenium_Interactions.Digest_Authentication@d35dea7]" started-at="2024-03-31T20:05:33 IST" name="verify" finished-at="2024-03-31T20:05:49 IST" depends-on-methods="locators_selenium_Interactions.Digest_Authentication.Digest_AuthenticationSignIn" duration-ms="16099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+      </class> <!-- locators_selenium_Interactions.Digest_Authentication -->
+    </test> <!-- Basic Auth And Digest Auth TestCases -->
+  </suite> <!-- Internet Website Test Suite -->
+</testng-results>

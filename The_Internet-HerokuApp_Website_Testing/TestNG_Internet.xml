@@ -1,0 +1,179 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite  name="Internet Herokuapp Website Test Suite"   verbose="2"   parallel="classes" thread-count="2">	
+    <test   name=" Add_Remove Element TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.AddAndRemove_Elements"></class>
+		</classes>
+	</test>
+	
+	<test   name="Broken Images TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.BrokenImages"></class>
+		</classes>
+	</test>
+	
+	<test   name="Challenging DOM Element Find TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Challenging_DOM"></class>
+		</classes>
+	</test>
+	
+	<test   name="Checkboxes TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Checkboxes"></class>
+		</classes>
+	</test>
+	
+	<test   name="ContextMenu TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Context_Menu"></class>
+		</classes>
+	</test>
+	
+	<test   name="Disappearing Elements TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Disappearing_Elements"></class>
+		</classes>
+	</test>
+	
+	<test   name=" DragAndDrop TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.DragAndDrop"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Drop_Down TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Drop_Down"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Dynamic_Controls TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Dynamic_Controls"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Entry_Ad TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Entry_Ad"></class>
+		</classes>
+	</test>
+	
+	<test   name=" File Download TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.File_Download"></class>
+		</classes>
+	</test>
+	
+	<test   name=" File Upload TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.File_Upload"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Forgot Password TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Forgot_Password"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Form Authentication TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Form_Authentication"></class>
+		</classes>
+	</test>
+	
+	<test   name="Frames TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Frames_Interact"></class>
+		</classes>
+	</test>
+	
+	<test   name="Horizontal_Slider TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Horizontal_Slider"></class>
+		</classes>
+	</test>
+	
+	
+	<test   name=" Hovers TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Hovers"></class>
+		</classes>
+	</test>
+		
+	<test   name=" Input_interacts TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Input_interacts"></class>
+		</classes>
+	</test>
+	
+	<test   name=" JavaScript_Alerts TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.JavaScript_Alerts"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Key_Presses TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Key_Presses"></class>
+		</classes>
+	</test>	
+	
+	<test   name=" Multiple_Windows TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Multiple_Windows"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Nested_Frames TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Nested_Frames"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Notification_Messages TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Notification_Messages"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Redirect_Link TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Redirect_Link"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Shadow_DOM TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Shadow_DOM"></class>
+		</classes>
+	</test>
+	
+	<test   name=" JQuery_UI_Menus TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.JQuery_UI_Menus"></class>
+		</classes>
+	</test>
+
+	<test   name=" Infinite Scroll TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Infinite_Scroll"></class>
+		</classes>
+	</test>
+	
+	<test   name=" Secure_File_Download  TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Secure_File_Download"></class>
+		</classes>
+	</test>
+
+	<test   name="Basic Auth And Digest Auth TestCases">
+		<classes>
+			<class name="locators_selenium_Interactions.Basic_Auth"></class>
+			<class name="locators_selenium_Interactions.Digest_Authentication"></class>
+		</classes>
+	</test>
+	
+</suite>
